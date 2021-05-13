@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doc3SetStateActivity">
+
+    <ImageView
+        android:id="@+id/imageView_background"
+        android:src="@drawable/background_0"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_30"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_40"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_60"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_70"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_35"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_45"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v35"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.35" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v65"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.65" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v90"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="狀態"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/guidline_10"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v10"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v90"
+        app:layout_constraintTop_toTopOf="parent"  />
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名字 :"
+        android:textSize="24dp"
+        android:textColor="#2e66bf"
+        app:layout_constraintBottom_toBottomOf="@+id/guidline_20"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v10"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v35"
+        app:layout_constraintTop_toTopOf="@+id/guidline_10"  />
+    <TextView
+        android:id="@+id/textView_name_ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="謝胖"
+        android:textSize="26dp"
+        android:textColor="#4a4a4a"
+        app:layout_constraintBottom_toBottomOf="@+id/guidline_20"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v90"
+        app:layout_constraintTop_toTopOf="@+id/guidline_10"
+        app:layout_constraintHorizontal_bias="0.1"/>
+<!--    <TextView-->
+<!--        android:id="@+id/textView_gender"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="性別 :"-->
+<!--        android:textSize="24dp"-->
+<!--        android:textColor="#2e66bf"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_30"-->
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v10"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_20"  />-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView_gender_ans"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="女"-->
+<!--        android:textSize="26dp"-->
+<!--        android:textColor="#4a4a4a"-->
+
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v90"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_20"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_30"-->
+<!--        app:layout_constraintHorizontal_bias="0.1"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView_height"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="身高 :"-->
+<!--        android:textSize="24dp"-->
+<!--        android:textColor="#2e66bf"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_40"-->
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v10"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_30"  />-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView_height_ans"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="165 cm"-->
+<!--        android:textSize="26dp"-->
+<!--        android:textColor="#4a4a4a"-->
+
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v90"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_30"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_40"-->
+<!--        app:layout_constraintHorizontal_bias="0.1"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView_weight"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="體重 :"-->
+<!--        android:textSize="24dp"-->
+<!--        android:textColor="#2e66bf"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_50"-->
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v10"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_40"  />-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView_weight_ans"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="60 kg"-->
+<!--        android:textSize="26dp"-->
+<!--        android:textColor="#4a4a4a"-->
+
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v90"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_40"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_50"-->
+<!--        app:layout_constraintHorizontal_bias="0.1"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView_age"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="年齡 :"-->
+<!--        android:textSize="24dp"-->
+<!--        android:textColor="#2e66bf"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_60"-->
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v10"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_50"  />-->
+<!--    <TextView-->
+<!--        android:id="@+id/textView_age_ans"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="76"-->
+<!--        android:textSize="26dp"-->
+<!--        android:textColor="#4a4a4a"-->
+
+<!--        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"-->
+<!--        app:layout_constraintRight_toRightOf="@+id/guidline_v90"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guidline_50"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/guidline_60"-->
+<!--        app:layout_constraintHorizontal_bias="0.1"/>-->
+    <TextView
+        android:id="@+id/textView_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="病史 :"
+        android:textSize="24dp"
+        android:textColor="#2e66bf"
+        app:layout_constraintBottom_toBottomOf="@+id/guidline_30"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v10"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v35"
+        app:layout_constraintTop_toTopOf="@+id/guidline_20"  />
+    <TextView
+        android:id="@+id/textView_history_ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="無"
+        android:textSize="26dp"
+        android:textColor="#4a4a4a"
+
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v90"
+        app:layout_constraintTop_toTopOf="@+id/guidline_20"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_35"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.15"/>
+    <TextView
+        android:id="@+id/textView_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="量表分數 :"
+        android:textSize="24dp"
+        android:textColor="#2e66bf"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_45"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v5"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v35"
+        app:layout_constraintTop_toTopOf="@+id/guideline_35"  />
+    <TextView
+        android:id="@+id/textView_test_ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="240"
+        android:textSize="26dp"
+        android:textColor="#4a4a4a"
+
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v90"
+        app:layout_constraintTop_toTopOf="@+id/guideline_35"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_45"
+        app:layout_constraintHorizontal_bias="0.1"/>
+
+    <TextView
+        android:id="@+id/textView_strength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="訓練強度 :"
+        android:textSize="24dp"
+        android:textColor="#2e66bf"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v5"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v35"
+        app:layout_constraintTop_toTopOf="@+id/guideline_45"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_55"/>
+
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf=" @+id/guidline_v65"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v90"
+        app:layout_constraintTop_toTopOf="@+id/guideline_45"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_55"
+        android:text="設定"
+        android:textSize="20dp"
+
+        ></Button>
+    <RadioGroup
+        android:id="@+id/radioGroup_strength_ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v35"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v65"
+        app:layout_constraintTop_toTopOf="@+id/guideline_45"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline_55"
+        app:layout_constraintHorizontal_bias="0.1"
+        >
+
+        <RadioButton
+            android:id="@+id/btn_strong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="#4a4a4a"
+            android:text="強"
+            android:textSize="26dp"/>
+
+        <RadioButton
+            android:id="@+id/btn_weak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4a4a4a"
+            android:text="弱"
+            android:textSize="26dp"/>
+
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

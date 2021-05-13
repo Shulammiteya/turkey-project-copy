@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User3HomeActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_65"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v50"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidline_v9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_4"
+        app:layout_constraintBottom_toBottomOf="@+id/guidline_9"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v1"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v9"
+        app:layout_constraintTop_toTopOf="@+id/guidline_1" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="390dp"
+        android:layout_height="165dp"
+        android:alpha="0.6"
+        android:background="@drawable/doc_label"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <TextView
+            android:id="@+id/textView_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:text="歡迎 !            "
+
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textView_introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:text="歡迎您 !收藏\n今天也要一起運動喔"
+
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_train"
+        android:src="@drawable/exercise_2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidline_65"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v50"
+        android:layout_width="0dp"
+        android:layout_height="0dp" ></ImageView>
+    <ImageButton
+        android:id="@+id/trainbtn"
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidline_65"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v50"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/textview_train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidline_65"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/guidline_v50"
+        android:text="訓練"
+        android:textSize="30dp"
+        android:background="@drawable/doc_label2"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <ImageView
+        android:id="@+id/imageView_review"
+        android:src="@drawable/review_2"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v50"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidline_65"
+        android:layout_width="0dp"
+        android:layout_height="0dp" ></ImageView>
+    <ImageButton
+        android:id="@+id/reviewbtn"
+        android:alpha="0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/review_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v50"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidline_65"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/textview_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidline_65"
+        app:layout_constraintLeft_toLeftOf="@+id/guidline_v50"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="回顧"
+        android:textSize="30dp"
+        android:background="@drawable/doc_label2"
+        android:textColor="@color/black"
+        app:layout_constraintVertical_bias="0.95"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User2SurveyActivity">
+
+    <ImageView
+        android:id="@+id/imageView_background1"
+        android:src="@drawable/background_1"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    <ImageView
+        android:id="@+id/imageView_background0"
+        android:src="@drawable/background_0"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接下來想請問您一些問題..."
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="215dp"
+        android:layout_height="176dp"
+        android:alpha="0"
+        android:text="過去7天，您是否經常坐著從事活動，如：閱讀、看電視等？"
+        android:textSize="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <CheckBox
+        android:id="@+id/checkBox_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不曾             "
+        android:textSize="17dp"
+        android:alpha="0"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+    <CheckBox
+        android:id="@+id/checkBox_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="很少 (1-2天)"
+        android:textSize="17dp"
+        android:alpha="0"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+    <CheckBox
+        android:id="@+id/checkBox_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="有時 (3-4天)"
+        android:textSize="17dp"
+        android:alpha="0"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60" />
+    <CheckBox
+        android:id="@+id/checkBox_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="經常 (5-7天)"
+        android:textSize="17dp"
+        android:alpha="0"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <Button
+        android:id="@+id/button_questionConfirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="確定"
+        android:textSize="15dp"
+        android:alpha="0"
+        android:enabled="false"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
